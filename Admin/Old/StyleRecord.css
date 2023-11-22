@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Navigation bar */
+nav{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    background: #341950;
+    box-shadow: 0
+                20px
+                35px
+                rgba(0, 0, 0, 0.1);
+}
+
+nav:hover{
+    width: 230px;
+    transition: all
+                0.5s
+                ease;
+}
+
+/* Logo section navigation bar  */
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 
+                0.5s 
+                ease;
+    margin: 10px 
+            0 
+            0
+            10px;
+}
+
+/* Image logo in navigation bar  */
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+/* Name of the system in navigation bar  */
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+hr{
+    margin: 10px auto;
+    padding: 0px;
+    border-top: 2px solid #585858;
+}
+
+/* title in navigation bar  */
+.title{
+    color: #F8F8F8;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Link in navigation bar */
+li a{
+    color: #F8F8F8;
+    position: relative;
+    font-size: 10px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+/* Icon in navigation bar */
+.fas,
+.fab{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Navigation element */
+nav .nav-item{
+    font-size: 14px;
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+/* Navigation for hover (background) */
+.menu-list:hover{
+    background: #e1a7cb;
+    color: #000;
+}
+
+/* Logout link */
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+
+/* Features Box */
+.box{
+    background: #9a56a6;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.box a{
+    padding: 10px
+             0
+             10px
+             0;
+}
+
+.box a:hover{
+    background: #e1a7cb;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* top right bottom left of the content box */
+.contentBox{
+    margin: 0px;
+    padding: 20px 20px 20px 110px;
+}
+
+/* top bar */
+.topbar{
+    margin: 0px;
+    padding: 0px;
+}
+
+.topbar .welcomeBox,
+.topbar .user{
+    display: inline-block;
+}
+
+.welcomeBox{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    vertical-align: middle;
+    background-color: #9a56a6;
+    border-radius: 5px;
+}
+
+.user{
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+    width: 49%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.welcomeBox p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #F8F8F8;
+}
+
+.user .username,
+.user .userDP{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.username .name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.username .email{
+    font-size: 12px;
+}
+
+.userDP img{
+    width: 70px;
+}
+
+.mainBox .firstBox{
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+}
+
+/* search box */
+.searchBox{
+    width: 100%;
+}
+
+.cari,
+.pergi{
+    display: inline-block;
+}
+
+.pergi{
+    float: right;
+}
+
+.pergi button{
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+    background-color: #341950;
+    color: #fff;
+    border-radius: 50px;
+    width: 150px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formSearch .searchInput{
+    margin: 0px 0px 10px 0px;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid #9a56a6;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 14px;
+}
+
+.formSearch button{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.formSearch i{
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+    color: #9a56a6;
+    vertical-align: middle;
+}
+
+/* table */
+table{
+    width: 100%;
+    background-color: #F8F8F8;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 12px 5px rgba(32, 32, 32, .3);
+}
+
+th,
+td{
+    padding: 12px 15px;
+}
+
+th{
+    background: #9a56a6;
+    color: #F8F8F8;
+    text-transform: uppercase;
+}
+
+tr:nth-child(odd){
+    background-color: #e1a7cb;
+}
+
+td .edit{
+    font-weight: bold;
+    font-size: 16px;
+    color: #341950;
+}
+
+td .delete{
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
+
+td .edit:hover{
+    background-color: #341950;
+    color: #fff;
+    border-radius: 3px;
+}
+
+td .delete:hover{
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+}
